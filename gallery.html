@@ -1,0 +1,140 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Ayomide Storybook</title>
+    <link rel="icon" type="image/png" href="assets/img/fav-icon.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="assets/js/prefixfree-1.0.7.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_carousel.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_theme.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_transitions.css" />
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+
+    <script type="text/javascript"> 
+         $(window).load(function() {
+          $(".owl-carousel").owlCarousel({
+            autoPlay: false,
+            navigation: true,
+            slideSpeed: 2000,
+            addClassActive: true,
+            transitionStyle: "fadeUp",
+            singleItem: true
+          });
+
+          $('a.g_img_hld').fancybox();
+          
+        });
+    </script>
+
+  </head>
+
+  <body>
+  
+    <div id="main_wrapper">
+
+      <div class="hm_pg_wrap">
+
+        <div class="header">
+          <div class="hdr">
+              
+              <div class="menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="story.html">Stories</a></li>
+                  </ul>
+              </div>
+              <div class="menu_icon">
+                <div class="menu_text">Menu</div>
+                <div class="burger_icon"> 
+                  <span class="burger_bar_top"></span> 
+                  <span class="burger_bar_middle"></span> 
+                  <span class="burger_bar_bottom"></span> 
+                </div>
+              </div>
+          </div>
+        </div>
+
+
+        <div class="banner clearfix" style="background-image: url(media/banner3.jpg)">
+            <div class="overlay"></div>
+            <div class="captions">
+              <div class="bnr_photo" style="background-image: url(media/speaker3.jpg); background-position: top"></div>
+              <div class="bnr_det">
+                <div class="pg_title">Gallery</div>
+              </div>           
+            </div>
+        </div>
+
+      </div>
+
+
+      <div class="section g_hld">
+        <div class="inner_wrap clearfix">
+            <a class="g_img_hld" data-fancybox-group="group" href="media/banner1.jpg">
+                <div class="g_photo" style="background-image: url(media/banner1.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo2.jpg">
+                <div class="g_photo" style="background-image: url(media/photo2.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo5.jpg">
+                <div class="g_photo" style="background-image: url(media/photo5.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo4.jpg">
+                <div class="g_photo" style="background-image: url(media/photo4.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo3.jpg">
+                <div class="g_photo" style="background-image: url(media/photo3.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo8.jpg">
+                <div class="g_photo" style="background-image: url(media/photo8.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo7.jpg">
+                <div class="g_photo" style="background-image: url(media/photo7.jpg);"></div>
+            </a>
+        </div>
+      </div>
+
+      <div class="section">
+          <div class="inner_wrap">
+            <div class="pg_hd">Video Gallery</div>
+            <div id="owl" class="owl-carousel owl-theme">
+                <div class="item">
+                    <video id="myvideo" controls src="media/banner-video1.mp4"></video>
+                    <div class="v_cap">Trailer</div>
+                </div>
+                <div class="item">
+                    <video id="myvideo" controls src="media/banner-video2.mp4"></video>
+                    <div class="v_cap">Behind the Scenes</div>
+                </div>
+            </div> 
+          </div>
+      </div>
+
+      
+
+      <div class="footer clearfix">
+        <div class="inner_wrap">
+            <div class="copyright"><a href="#" target="new">&copy; Copyright 2020. All Rights Reserved.</a></div>
+            <div class="create"><a href="#" target="new">Created by <span>TMC</span></a></div>
+        </div>
+      </div>
+
+
+     
+    </div>
+  
+  </body>
+</html>
+
