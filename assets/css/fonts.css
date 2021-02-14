@@ -2,38 +2,51 @@
 /* CSS Document */
 
 @font-face {
-	font-family: 'InterThin';
-	src: url(../fonts/Inter-Thin.ttf);
+	font-family: 'RobotoThin';
+	src: url(../fonts/Roboto-Thin.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'InterLight';
-	src: url(../fonts/Inter-Light.ttf);
+	font-family: 'RobotoLight';
+	src: url(../fonts/Roboto-Light.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'InterReg';
-	src: url(../fonts/Inter-Regular.ttf);
+	font-family: 'RobotoReg';
+	src: url(../fonts/Roboto-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'InterMedium';
-	src: url(../fonts/Inter-Medium.ttf);
+	font-family: 'RobotoMedium';
+	src: url(../fonts/Roboto-Medium.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'InterBold';
-	src: url(../fonts/Inter-Bold.ttf);
+	font-family: 'RobotoBold';
+	src: url(../fonts/Roboto-Bold.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'InterBlack';
-	src: url(../fonts/Inter-Black.ttf);
+	font-family: 'RobotoBlack';
+	src: url(../fonts/Roboto-Black.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'RobotoBoldItalic';
+	src: url(../fonts/Roboto-BoldItalic.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoItalic';
+	src: url(../fonts/Roboto-Italic.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+

@@ -1,0 +1,269 @@
+/*
+Theme Name: Africa Energy Futures
+Author: 	TMC
+Author URI: www.tmc.com
+Description: The official theme of Africa Energy
+Version: 1.0
+*/
+
+
+@charset "utf-8";
+/* CSS Document */
+.box {
+	height: 390px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: " ";
+}
+.clearfix:after {
+	clear: both;
+}
+a, a:hover {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+}
+body {
+	overflow-x: hidden;
+	font-family: 'RobotoReg';
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+html {
+	overflow-y: auto;
+	overflow: -moz-scrollbars-vertical;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+#main_wrapper {
+	width: auto;
+    height: auto;
+	position: relative;
+	overflow-x: hidden;
+    overflow-y: auto;
+}
+.section {
+	width: 100%;
+	height: auto;
+	padding: 60px 8%;
+	position: relative;
+}
+
+.no_pad {
+	padding-top: 0;
+}
+.inner_wrap {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.grey_sec {
+	background-color: #f6f6f6;
+}
+.hm_pg_wrap {
+	width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.pg_wrap {
+	width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* GENERAL PAGE STYLING */
+
+.left_wrap {
+	width: 50%;
+	height: 100vh;
+	padding: 12vh 10% 12vh 5%;
+	float: left;
+}
+.right_wrap {
+	width: 50%;
+	height: 100vh;
+	float: left;
+}
+.left_wrap .b_logo {
+	width: 45%;
+	height: auto;
+	margin-bottom: 6vh;
+}
+.left_wrap .b_logo img {
+	width: 100%;
+	height: auto;
+}
+.left_wrap .forum_abt {
+	width: 100%;
+	padding-left: 3%;
+	margin-bottom: 8vh;
+}
+.left_wrap .forum_abt p {
+	font-size: 16px;
+	font-family: 'RobotoReg';
+	letter-spacing: 0.6px;
+	line-height: 1.5;
+	color: #5a5b5c;
+}
+.left_wrap .forum_det {
+	width: 100%;
+	padding-left: 3%;
+}
+.left_wrap .forum_det .theme {
+	font-size: 25px;
+	font-family: 'RobotoBlack';
+	text-transform: capitalize;
+	margin-bottom: 2vh;
+	letter-spacing: 0.6px;
+	line-height: 1.2;
+	color: #d84732;
+}
+.left_wrap .forum_det .venue,
+.left_wrap .forum_det .date {
+	font-size: 16px;
+	font-family: 'RobotoReg';
+	text-transform: capitalize;
+	margin-bottom: 1vh;
+	letter-spacing: 0.6px;
+	line-height: 1.2;
+	color: #5a5b5c;
+}
+
+
+
+/*BANNER*/
+.right_wrap .banner {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.banner .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 2;
+	left: 0;
+	top: 0;
+}
+
+.page_content {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	text-align: center;
+	transform: translateY(-50%);
+	top: 45%;
+	z-index: 3;
+}
+.page_content .major_caption {
+	font-size: 20px;
+	position: relative;
+	margin-top: 6vh;
+	letter-spacing: 1.5px;
+	font-family: 'RobotoMedium';
+	color: #fff;
+}
+.page_content .minor_caption {
+	font-size: 70px;
+	position: relative;
+	letter-spacing: 1px;
+	text-shadow: 8px 6px 13px rgba(0,0,0,.4);
+	font-family: 'RobotoBlack';
+	color: #fff;
+}
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:480px) {
+	/* GENERAL PAGE STYLING */
+
+    .left_wrap {
+    	width: 100%;
+    	height: auto;
+    	padding: 8vh 10% 12vh 5%;
+    	float: none;
+    }
+    .right_wrap {
+    	width: 100%;
+    	height: 45vh;
+    	float: none;
+    }
+    .left_wrap .b_logo {
+    	width: 40%;
+    	margin-bottom: 6vh;
+    }
+    .left_wrap .forum_abt {
+    	padding-left: 3%;
+    	margin-bottom: 6vh;
+    }
+    .left_wrap .forum_abt p {
+    	font-size: 15px;
+    	letter-spacing: 0.6px;
+    	line-height: 1.5;
+    }
+    .left_wrap .forum_det {
+    	padding-left: 3%;
+    }
+    .left_wrap .forum_det .theme {
+    	font-size: 20px;
+    	margin-bottom: 2vh;
+    	letter-spacing: 0.6px;
+    	line-height: 1.2;
+    }
+    .left_wrap .forum_det .venue,
+    .left_wrap .forum_det .date {
+    	font-size: 15px;
+    	margin-bottom: 1vh;
+    	letter-spacing: 0.6px;
+    	line-height: 1.2;
+    }
+
+
+
+    /*BANNER*/
+    .right_wrap .banner {
+    	height: 100%;
+    }
+    .page_content {
+    	width: 100%;
+		text-align: left;
+		padding: 0 8%;
+    	top: 45%;
+    }
+    .page_content .major_caption {
+    	font-size: 16px;
+    	margin-top: 5vh;
+	    letter-spacing: 1px;
+    }
+    .page_content .minor_caption {
+    	font-size: 40px;
+    	letter-spacing: 1px;
+    }
+}
+	
