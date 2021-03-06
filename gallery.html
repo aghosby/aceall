@@ -8,8 +8,9 @@
     <link type="text/css" rel="stylesheet" href="assets/css/fonts.css"/>
     <link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.min.css"/>
     <script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
     <script type="text/javascript" src="assets/js/prefixfree-1.0.7.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
@@ -18,7 +19,8 @@
     <link type="text/css" rel="stylesheet" href="assets/css/owl_transitions.css" />
     <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    
 
     <script type="text/javascript"> 
          $(window).load(function() {
@@ -42,96 +44,117 @@
   
     <div id="main_wrapper">
 
-      <div class="hm_pg_wrap">
+      <div class="header">
+        <div class="hdr">
 
-        <div class="header">
-          <div class="hdr">
-              
-              <div class="menu">
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="story.html">Stories</a></li>
-                  </ul>
-              </div>
-              <div class="menu_icon">
-                <div class="menu_text">Menu</div>
-                <div class="burger_icon"> 
-                  <span class="burger_bar_top"></span> 
-                  <span class="burger_bar_middle"></span> 
-                  <span class="burger_bar_bottom"></span> 
-                </div>
-              </div>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="stories.html">Stories</a></li>
+            </ul>
           </div>
-        </div>
 
+          <div class="social">
+            <a href="" class="fas fa-envelope"></a>
+            <a href="" class="fas fa-download"></a>
+          </div>
 
-        <div class="banner clearfix" style="background-image: url(media/banner3.jpg)">
-            <div class="overlay"></div>
-            <div class="captions">
-              <div class="bnr_photo" style="background-image: url(media/photo5.jpg); background-position: top"></div>
-              <div class="bnr_det">
-                <div class="pg_title">Gallery</div>
-              </div>           
+          <div class="menu_icon">
+            <div class="menu_text">Menu</div>
+            <div class="burger_icon"> 
+              <span class="burger_bar_top"></span> 
+              <span class="burger_bar_middle"></span> 
+              <span class="burger_bar_bottom"></span> 
             </div>
-        </div>
+          </div>
 
+        </div>
       </div>
+
+
+      <div class="banner grey_sec clearfix">
+        <div class="bnr_photo" style="background-image: url(media/hero-image.png)"></div>
+        <div class="bnr_caption">
+          <div class="bnr_major">Gallery</div>
+          <div class="bnr_minor">Ibitayo Ayomide Olubode</div>
+          <div class="cta"><a href="#">Photo gallery</a></div>
+        </div>
+      </div>
+
+
 
 
       <div class="section g_hld">
         <div class="inner_wrap clearfix">
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo1.jpg">
-                <div class="g_photo" style="background-image: url(media/photo1.jpg);"></div>
+          <div class="gallery_wrap clearfix">
+            <a href="media/photo1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+              <img src="media/photo1.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo2.jpg">
-                <div class="g_photo" style="background-image: url(media/photo2.jpg);"></div>
+            
+            <a href="media/photo2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+              <img src="media/photo2.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo5.jpg">
-                <div class="g_photo" style="background-image: url(media/photo5.jpg);"></div>
+
+            <a href="media/photo3.jpg" data-fancybox="gallery" data-caption="Caption #3">
+              <img src="media/photo3.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo4.jpg">
-                <div class="g_photo" style="background-image: url(media/photo4.jpg);"></div>
+
+            <a href="media/photo4.jpg" data-fancybox="gallery" data-caption="Caption #4">
+              <img src="media/photo4.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo3.jpg">
-                <div class="g_photo" style="background-image: url(media/photo3.jpg);"></div>
+
+            <a href="media/photo5.jpg" data-fancybox="gallery" data-caption="Caption #5">
+              <img src="media/photo5.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo8.jpg">
-                <div class="g_photo" style="background-image: url(media/photo8.jpg);"></div>
+
+            <a href="media/photo10.jpg" data-fancybox="gallery" data-caption="Caption #6">
+              <img src="media/photo10.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo7.jpg">
-                <div class="g_photo" style="background-image: url(media/photo7.jpg);"></div>
+
+            <a href="media/photo7.jpg" data-fancybox="gallery" data-caption="Caption #7">
+              <img src="media/photo7.jpg" alt="" />
             </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo6.jpg">
-                <div class="g_photo" style="background-image: url(media/photo6.jpg);"></div>
-            </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo9.jpg">
-                <div class="g_photo" style="background-image: url(media/photo9.jpg);"></div>
-            </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo10.jpg">
-                <div class="g_photo" style="background-image: url(media/photo10.jpg);"></div>
-            </a>
-            <a class="g_img_hld" data-fancybox-group="group" href="media/photo11.jpg">
-                <div class="g_photo" style="background-image: url(media/photo11.jpg);"></div>
-            </a>
+          </div>
+
+          <script type="text/javascript">
+            $('[data-fancybox="gallery"]').fancybox({
+              loop: true,
+              buttons: [
+                "zoom",
+                "share",
+                "slideShow",
+                "fullScreen",
+                //"download",
+                "thumbs",
+                "close"
+              ]
+            });
+          </script>
         </div>
       </div>
 
       <div class="section">
-          <div class="inner_wrap">
+        <div class="inner_wrap">
+          <div class="mid_sec">
             <div class="pg_hd">Video Gallery</div>
-            <div id="owl" class="owl-carousel owl-theme">
-                <div class="item">
-                    <video id="myvideo" controls src="media/banner-video1.mp4"></video>
-                    <div class="v_cap">Trailer</div>
-                </div>
-                <div class="item">
-                    <video id="myvideo" controls src="media/banner-video2.mp4"></video>
-                    <div class="v_cap">Behind the Scenes</div>
-                </div>
+            <div class="video_wrap">
+              <div class="video_hld">
+                <video autoplay muted loop>
+                  <source src="media/banner-video1.mp4" type="video/mp4">
+                </video>
+                <div class="v_cap">Trailer</div>
+              </div>
+              <div class="video_hld">
+                <video autoplay muted loop>
+                  <source src="media/banner-video2.mp4" type="video/mp4">
+                </video>
+                <div class="v_cap">Voyage</div>
+              </div>
             </div> 
           </div>
+        </div>
       </div>
 
       
