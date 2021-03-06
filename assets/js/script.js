@@ -1,9 +1,13 @@
 $(document).ready(function() {
 	"use strict";
 
+	$('.header').scrollToFixed({
+		zIndex: 7
+	});
+
     $('.flexslider').flexslider({
 		animation: "fade",
-		controlNav: false,
+		controlNav: true,
 		animationSpeed: 3000,
 		directionNav: true
 	});
@@ -20,14 +24,10 @@ $(document).ready(function() {
 
 	$(".menu_icon").click(function(e){
 		e.preventDefault();
-		$(".menu_wrap").fadeToggle(700);
-		$(".menu_wrap").toggleClass("open");
+		$(".menu").fadeToggle(700);
+		$(".menu").toggleClass("open");
 	});
 	
-	$('.scroll_click').on("click",function(){
-        $(".menu_wrap").fadeToggle(700);
-		$(".menu_wrap").toggleClass("open");
-    });
 	
 	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
