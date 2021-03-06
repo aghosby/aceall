@@ -50,3 +50,31 @@
 	font-style: normal;
 }
 
+
+
+
+@font-face {
+	font-family: 'ITCBook';
+	src: url(../fonts/ITCAvantGardeStdBk.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ITCBold';
+	src: url(../fonts/ITCAvantGardeStdBold.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ITCMedium';
+	src: url(../fonts/ITCAvantGardeStdMd.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ITCLight';
+	src: url(../fonts/ITCAvantGardeStdXLt.otf);
+	font-weight: normal;
+	font-style: normal;
+}
+
