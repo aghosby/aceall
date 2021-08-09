@@ -1199,6 +1199,13 @@ textarea:focus {
 	transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	position: relative;
 }
+.btn.left {
+	width: auto;
+	margin: 4vh 0 0;
+	display: inline-block;
+	transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	position: relative;
+}
 .btn a {
 	width: 100%;
 	font-size: 16px;
