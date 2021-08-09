@@ -761,7 +761,12 @@ html {
 	margin-top: 1vh;
 }
 .about-det .text p a {
+	transition: all 0.4s ease;
 	color: var(--brand-dark);
+	font-family: 'NM';
+}
+.about-det .text p a:hover {
+	color: #fbc615;
 	font-family: 'NM';
 }
 
