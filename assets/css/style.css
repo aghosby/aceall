@@ -206,13 +206,13 @@ html {
 	font-size: 13px;
 }
 .header .hdr .menu ul li a:hover {
-	color: var(--text-grey);
+	color: #fbc615;
 }
 .smheader.header .hdr .menu ul li a {
 	color: var(--text-dark);
 }
 .smheader.header .hdr .menu ul li a:hover {
-	color: var(--text-grey);
+	color: #fbc615;
 }
 .menu_icon {
 	display: none;
@@ -344,7 +344,7 @@ html {
 .feedbk-wrap .feedbk-hld .details .sec_det p {
 	line-height: 1.5;
 	letter-spacing: 0.6px;
-	font-family: "AR";
+	font-family: "NR";
 	font-size: 12px;
 	color: var(--light-text);
 }
