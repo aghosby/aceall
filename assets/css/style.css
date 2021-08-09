@@ -313,7 +313,7 @@ html {
 	font-size: 10px;
 	letter-spacing: 0.5px;
 	text-transform: capitalize;
-	font-family: 'AR';
+	font-family: 'NR';
 	color: var(--light-text);
 }
 .feedbk-wrap .feedbk-hld .ic .ic_sign {
@@ -409,7 +409,7 @@ html {
 .stat-wrap .stat-hld .stat-no {
     width: 100%;
     margin: 0 0 1vh;
-    font-family: 'ABL';
+    font-family: 'NM';
     font-size: 3em;
 	color: var(--white);
 }
