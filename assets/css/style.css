@@ -110,6 +110,7 @@ html {
 .hdr-bnr-wrap {
 	position: relative;
 }
+/*
 .hdr-bnr-wrap:after {
 	content: '';
 	width: 100%;
@@ -120,9 +121,10 @@ html {
 	left: 0;
 	top: 0;
 }
+*/
 .header {
 	width: 100%;
-    padding: 6vh 10%;
+    padding: 6vh 10% 4vh;
     position: relative;
 }
 .header:before {
@@ -155,12 +157,9 @@ html {
 }
 .header .hdr .brandname a img {
 	width: auto;
-	height: 4vh;
+	height: 3vh;
 	display: inline-block;
 	transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header .hdr .brandname .b-logo {
-	display: none;
 }
 .smheader.header .hdr .brandname .w-logo {
 	display: none;
@@ -199,7 +198,7 @@ html {
 	text-align: right;
 	letter-spacing: 0.7px;
 	font-family: 'NM';
-	color: var(--white);
+	color: var(--brand-dark);
 	text-transform: uppercase;
 	transition: color 0.4s ease;
 	position: relative;
@@ -223,6 +222,7 @@ html {
 .bnr-hld {
 	width: 80%;
 	margin: 1vh auto 0;
+	position: relative;
 }
 
 .bnr-hld .banner {
@@ -291,6 +291,9 @@ html {
 	font-family: 'NM';
 	text-transform: uppercase;
 }
+.flex-caption .slide_header span {
+	font-family: 'ABL';
+}
 .flex-caption .slide_desc {
 	width: 100%;
 	font-size: 16px;
@@ -357,13 +360,6 @@ html {
 .flex-control-nav li a.flex-active:before {
 	opacity: 1;
 }
-
-
-
-
-
-
-
 
 
 
@@ -760,7 +756,7 @@ html {
 	width: 55%;
 }
 .footer .ft_top .ft_col .ft_logo img {
-	width: 80%;
+	width: 60%;
 	height: auto;
 }
 .footer .ft_top .ft_col .coy_brief {
@@ -1114,10 +1110,14 @@ html {
 	float: left;
 	position: relative;
 }
-.exp-wrap .exp-hld:nth-child(3n-1) {
-	margin: 0 2%;
+.exp-wrap .exp-hld:nth-child(1) {
+	width: 66%;
 }
-.exp-wrap .exp-hld:nth-child(n+4) {
+.exp-wrap .exp-hld:nth-child(2n),
+.exp-wrap .exp-hld:last-child {
+	margin-left: 2%;
+}
+.exp-wrap .exp-hld:nth-child(n+3) {
 	margin-top: 3vh;
 }
 .exp-wrap .exp-hld .exp-photo {
@@ -1133,8 +1133,8 @@ html {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	transition: all 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	background-color: rgba(0, 0, 0, 0.3);
+	transition: all 0.5s ease;
+	background-color: rgba(0, 0, 0, 0.2);
 	z-index: 1;
 	left: 0;
 	top: 0;
@@ -1145,6 +1145,7 @@ html {
 .exp-wrap .exp-hld .exp-name {
 	font-size: 1.3em;
 	font-family: 'NR';
+	font-weight: 700;
 	letter-spacing: 0.4px;
 	color: var(--white);
 	position: absolute;
@@ -1340,6 +1341,7 @@ textarea {
     height: 25vh;
     resize: vertical;
     padding: 12px 20px;
+	font-size: 14px;
     box-sizing: border-box;
     border: 1px solid #ccc;
 	border-radius: 3px;
@@ -1390,6 +1392,9 @@ textarea:focus {
 	background-color: var(--brand-dark);
 }
 
+
+/* CAREERS PAGE */
+
 .section .inner-wrap.car-sec {
 	width: 87%;
 	margin: 0 auto;
@@ -1400,6 +1405,13 @@ textarea:focus {
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 5%;
+}
+.about-det.shared-lft {
+	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	margin-right: 5%;
 }
 .vendor {
 	width: 53%;
@@ -1485,4 +1497,46 @@ textarea:focus {
 }
 .source-det .news-t:nth-child(2):after {
     right: -20px;
+}
+
+
+.proj-info {
+	width: 35%;
+	height: auto;
+	padding: 4vh 30px;
+	color: var(--white);
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
+}
+.proj-info .info-name {
+	text-transform: capitalize;
+    line-height: 1;
+    letter-spacing: 0.4px;
+    transition: color 0.5s ease;
+    font-family: "NM";
+    font-size: 18px;
+}
+.proj-info .info-summary p {
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+	margin: 2vh 0;
+    transition: color 0.5s ease;
+    font-family: "NR";
+    font-size: 13px;
+}
+.proj-info .info-det {
+	justify-content: flex-start;
+	display: flex;
+}
+.proj-info .info-det .det {
+	margin-right: 15px;
+	font-family: "NM";
+	font-size: 14px;
+}
+.proj-info .info-det .det .hdr {
+	color: var(--text-grey);
+	margin-right: 4px;
 }
