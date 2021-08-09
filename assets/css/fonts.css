@@ -2,78 +2,39 @@
 /* CSS Document */
 
 @font-face {
-	font-family: 'RobotoThin';
-	src: url(../fonts/Roboto-Thin.ttf);
+	font-family: 'NM';
+	src: url(../fonts/Noir-Medium.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'RobotoLight';
-	src: url(../fonts/Roboto-Light.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoReg';
-	src: url(../fonts/Roboto-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoMedium';
-	src: url(../fonts/Roboto-Medium.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoBold';
-	src: url(../fonts/Roboto-Bold.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoBlack';
-	src: url(../fonts/Roboto-Black.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoBoldItalic';
-	src: url(../fonts/Roboto-BoldItalic.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'RobotoItalic';
-	src: url(../fonts/Roboto-Italic.ttf);
+	font-family: 'NR';
+	src: url(../fonts/Noir-Regular.otf);
 	font-weight: normal;
 	font-style: normal;
 }
 
-
-
-
 @font-face {
-	font-family: 'ITCBook';
-	src: url(../fonts/ITCAvantGardeStdBk.otf);
+	font-family: 'AL';
+	src: url(../fonts/Arial-Light.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'ITCBold';
-	src: url(../fonts/ITCAvantGardeStdBold.otf);
+	font-family: 'AR';
+	src: url(../fonts/Arial-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'ITCMedium';
-	src: url(../fonts/ITCAvantGardeStdMd.otf);
+	font-family: 'AB';
+	src: url(../fonts/Arial-Bold.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'ITCLight';
-	src: url(../fonts/ITCAvantGardeStdXLt.otf);
+	font-family: 'ABL';
+	src: url(../fonts/Arial-Black.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
