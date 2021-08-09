@@ -292,7 +292,8 @@ html {
 	text-transform: uppercase;
 }
 .flex-caption .slide_header span {
-	font-family: 'ABL';
+	font-family: 'Arial';
+	font-weight: 800;
 }
 .flex-caption .slide_desc {
 	width: 100%;
