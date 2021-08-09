@@ -18,6 +18,13 @@ $(document).ready(function() {
 	    }	
 	});
 
+	$('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: true,
+		animationSpeed: 4000,
+		directionNav: true
+	});
+
 
 	$("body").delegate(".ic", "click", function (e) {
 		e.stopPropagation();
