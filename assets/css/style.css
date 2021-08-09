@@ -852,6 +852,11 @@ html {
 	position: relative;
 	margin-bottom: 7vh;
 }
+.proj-hld .v_pg_wrap {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
 .bnr-cont .v_pg_wrap video {
 	width: 100%;
 	height: 100%;
@@ -860,7 +865,18 @@ html {
 	left: 0;
 	top: 0;
 }
+.proj-hld .v_pg_wrap video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
 .bnr-cont .v_pg_wrap:hover video {
+    cursor: pointer;
+}
+.proj-hld .v_pg_wrap:hover video {
     cursor: pointer;
 }
 
