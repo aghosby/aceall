@@ -978,7 +978,7 @@ html {
 .pillar-wrap .pillar-hld .pillar-det .pillar-no {
 	font-size: 13px;
 	font-family: 'NM';
-	color: var(--bg-grey);
+	color: var(--brand-blue);
 	margin-bottom: 1vh;
 }
 .pillar-wrap .pillar-hld .pillar-det .pillar-title {
@@ -997,7 +997,7 @@ html {
 .pillar-wrap .pillar-hld .pillar-det .pillar-text {
 	font-size: 15px;
 	font-family: 'NR';
-	color: var(--light-text);
+	color: var(--brand-blue);
 	margin-bottom: 3vh;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
