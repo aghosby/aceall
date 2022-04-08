@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'AGT';
+	src: url('../fonts/AtlasGrotesk-Thin.otf');
+	src: url(//:) format('no404'), url('../fonts/AtlasGrotesk-Thin.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGL';
+	src: url('../fonts/AtlasGrotesk-Light.otf');
+	src: url(//:) format('no404'), url('../fonts/AtlasGrotesk-Light.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGR';
+	src: url('../fonts/AtlasGrotesk-Regular.otf');
+	src: url(//:) format('no404'), url('../fonts/AtlasGrotesk-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGM';
+	src: url('../fonts/AtlasGrotesk-Medium.otf');
+	src: url(//:) format('no404'), url('../fonts/AtlasGrotesk-Medium.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGB';
+	src: url('../fonts/AtlasGrotesk-Black.otf');
+	src: url(//:) format('no404'), url('../fonts/AtlasGrotesk-Black.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Archia';
+	src: url('../fonts/archia-regular.ttf');
+	src: url(//:) format('no404'), url('../fonts/archia-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
